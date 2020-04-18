@@ -1,5 +1,6 @@
 # TraderBot
 Project based on interest in algo-trading.  
+By August Semrau Andersen.
 ## Approach
 The trader bot will seek to be profitable.  
 Approaches to implementing this task are described in light detail below.  
