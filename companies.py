@@ -1,7 +1,6 @@
-
+# -*- coding: utf-8 -*-
 """
-Created on Sat 18 2020
-
+Created on 18-04-2020
 @author: August Semrau Andersen
 """
 
@@ -26,7 +25,7 @@ class companyFinder:
 
         else:
             num_stocks = self.size
-            # TODO: Implement chosen stocks for return here
+            # TODO: Implement chosen share_data for return here
             names = ""
         return stock1, stock2, stock3, stock4, stock5
 

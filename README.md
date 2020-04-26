@@ -6,14 +6,13 @@ The trader bot will seek to be profitable.
 Approaches to implementing this task are described in light detail below.  
 
 ### API
-The free API 'Alpha Vantage' is used for retrieving real-time stock prices.  
+1. The free API 'Alpha Vantage' is used for retrieving real-time stock prices.  
 Alpha Vantage in it's free state limits the user to 5 calls per minute, 500 per day.  
 
-Notes on Alpha Vantage:  
-It doesn't support  
+2. Finnhub is also free, and for now seems like a better alternative.
 
 
-### Tradigt strategy and algorithms
+### Trading strategy and algorithms
 Primary trading strategy is a mix of strategies, based on following articles:  
 
 'Only Take a Trade If It Passes This 5-Step Test'
@@ -21,6 +20,7 @@ https://www.investopedia.com/articles/active-trading/090415/only-take-trade-if-i
 
 '10 Day Trading Strategies for Beginners'
 https://www.investopedia.com/articles/trading/06/daytradingretail.asp
+
 
 
 ## TODO LIST
