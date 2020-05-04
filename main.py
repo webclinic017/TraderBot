@@ -44,7 +44,7 @@ if __name__ == "__main__":
     # print(f'Stock 1: {stock1}\nStock 2: {stock2}\nStock 3: {stock3}\nStock 4: {stock4}\nStock 5: {stock5}')
 
     # For now testing share_data:
-    stock1, stock2, stock3, stock4, stock5 = companyClass.companies(test=True) # Apple, Microsoft, Tesla, Google and Facebook
+    stock1, stock2, stock3, stock4, stock5 = companyClass.companies(test=True)  # Apple, Microsoft, Tesla, Google and Facebook
 
 
 
