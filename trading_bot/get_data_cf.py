@@ -13,7 +13,7 @@ import time
 def daily_equity_quotes(event, context):
     # Get the api key from cloud storage
     storage_client = storage.Client()
-    bucket = storage_client.get_bucket('<NAME OF YOUR CLOUD STORAGE BUCKET>')
+    bucket = storage_client.get_bucket('august_daily_quote_data')
     blob = bucket.blob('<NAME OF YOUR SECRET FILE>')
     api_key = blob.download_as_string()
     

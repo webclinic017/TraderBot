@@ -16,7 +16,7 @@ def unix_time_millis(dt):
 
 # Get the historical dates you need.
 # Only doing one day here as an example
-date = datetime.strptime('2019-11-19', '%Y-%m-%d')
+date = datetime.strptime('2020-05-11', '%Y-%m-%d')
 
 # Convert to unix for the API
 date_ms = unix_time_millis(date)
@@ -43,7 +43,7 @@ for each in symbols:
     symbols_clean.append((each.split('-')[0]))
 
 # Get the price history for each stock. This can take a while
-consumer_key = '<YOUR CONSUMER KEY>'
+consumer_key = 'YXGSL2OCAOQWGVDUV0JTFJL1A6DVGWY8'
 
 data_list = []
 
@@ -108,4 +108,4 @@ df['date'] = pd.to_datetime(df['date'], unit='ms')
 df['date'] = df['date'].dt.strftime('%Y-%m-%d')
 
 # Save to csv
-df.to_csv(r'<YOUR PATH>\back_data.csv')
+df.to_csv(r'.\back_data.csv')
